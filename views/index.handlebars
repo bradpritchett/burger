@@ -1,5 +1,16 @@
 <h1>Welcome To Burger Time!</h1>
+<ul>
+    {{#each burgers}}
+    <li>
+        {{this.burger_name}}
 
+        <button class="devour" data-id="{{id}}" data-is="{{devoured}}">
+            {{#if devoured}}delicious{{else}}devour!{{/if}}
+        </button>
+    </li>
+
+    {{/each}}
+</ul>
 <form class="create-form">
 
     <div class="form-group">
