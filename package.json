@@ -1,0 +1,28 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "a thing",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm i",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradpritchett/burger.git"
+  },
+  "keywords": [
+    "why"
+  ],
+  "author": "no",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradpritchett/burger/issues"
+  },
+  "homepage": "https://github.com/bradpritchett/burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
